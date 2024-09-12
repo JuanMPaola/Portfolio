@@ -12,9 +12,9 @@ export class ProjectsService {
       name: "Videogames Catalog Web App",
       summary: 'My first web application',
       description: 'You can search and upload videogames',
-      projectLink: '',
+      projectLink: 'https://github.com/JuanMPaola/Proyecto-Individual-Videogames',
       tags: [ Tag.REACT, Tag.JAVASCRIPT, Tag.EXPRESS ],
-      pictures: []
+      pictures: ["../../assets/Videogames/Home.jpeg", "../../assets/Videogames/Form.jpeg"]
     },
     {
       id: 1,
@@ -23,14 +23,14 @@ export class ProjectsService {
       description: 'Have lots of funcionalities',
       projectLink: '',
       tags: [ Tag.NESTJS, Tag.TYPESCRIPT ],
-      pictures: []
+      pictures: ["../../assets/Real_State/Landing.png", "../../assets/Real_State/Home.png"]
     },    
     {
       id: 2,
       name: "Trains Web App",
       summary: 'This was made for a person who sells trains',
       description: 'You can search products, view the details of them and upload from the form',
-      projectLink: '',
+      projectLink: 'https://github.com/JuanMPaola/ModelRailway',
       tags: [ Tag.REACT, Tag.JAVASCRIPT ],
       pictures: []
     },
@@ -39,7 +39,7 @@ export class ProjectsService {
       name: "Web Porfolio",
       summary: 'This was made for a person who sells trains',
       description: 'You can search products, view the details of them and upload from the form',
-      projectLink: '',
+      projectLink: 'https://github.com/JuanMPaola/Portfolio',
       tags: [ Tag.ANGULAR, Tag.TYPESCRIPT ],
       pictures: []
     },
@@ -48,7 +48,7 @@ export class ProjectsService {
       name: "Hospital Scheduler API",
       summary: 'This was made for a person who sells trains',
       description: 'You can search products, view the details of them and upload from the form',
-      projectLink: '',
+      projectLink: 'https://github.com/JuanMPaola/Hospital-Appointment-Scheduler-API',
       tags: [Tag.TYPESCRIPT ],
       pictures: []
     }

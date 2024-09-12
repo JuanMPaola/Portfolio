@@ -2,14 +2,34 @@
     <div class="row">
 
         <div class="col-lg shadow border m-3 text-center">
-            <h2>About me</h2>
-            <img src="../../assets/foto curriculum.jpg" alt="profile picture">
+
+
+                <h2>About me</h2>
+                <img src="assets/profile_picture.jpg" alt="profile picture" width="256" height="256" class="rounded-circle">
+
             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores modi aperiam ipsam optio, praesentium autem reprehenderit qui in explicabo a! Pariatur fugiat id mollitia suscipit quis, asperiores tempore sunt nobis.</p>
         </div>
 
         <div class="col-lg shadow border m-3 text-center">
-            <h2>Project</h2>
-            <h4>{{featuredProject.name}}</h4>
+
+            <div class="text-center">
+
+                <h2>Project</h2>
+                <h4>{{featuredProject.name}}</h4>
+
+            </div>
+
+            <carousel>
+
+                <div *ngFor="let picture of featuredProject.pictures">
+                    <slide><img src={{picture}} alt={{picture}} style="display: block; width: 100%;"></slide>
+                </div>
+        
+            </carousel>
+
+            <p class="mt-2">{{featuredProject.summary}}</p>
+            <p>Visit the Portfolio section to learn more!</p>
+
         </div>
 
     </div>

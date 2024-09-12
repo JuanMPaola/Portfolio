@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ProjectCardComponent } from "../project-card/project-card.component";
 import { Project } from '../_models/Project';
-import { Tag } from '../_models/Tag';
 import { CommonModule } from '@angular/common';
 import { ProjectsService } from '../_services/projects.service';
 
