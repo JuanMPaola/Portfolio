@@ -1,0 +1,9 @@
+.filters{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 0;
+    flex-wrap: wrap;
+
+}
+
