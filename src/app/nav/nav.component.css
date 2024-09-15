@@ -1,0 +1,23 @@
+.custom-navbar {
+    background-color: #333; /* Un color gris oscuro */
+}
+
+.nav-link {
+    color: white; /* Texto en blanco */
+    transition: color 0.3s ease; /* Transición suave del color */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #b0b0b0; /* Gris claro cuando se pasa el mouse o se enfoca */
+}
+
+.nav-link.active-link,
+.nav-link.router-link-active { /* Aplica el estilo cuando el enlace está activo */
+    color: #f0a500; /* Un color que resalte más, como amarillo o naranja */
+    font-weight: bold; /* Opcional: hace que el texto sea más grueso */
+}
+
+.navbar-expand-md .nav-item {
+    margin: 0 15px; /* Añade espacio entre los elementos */
+}

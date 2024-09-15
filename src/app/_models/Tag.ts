@@ -11,6 +11,9 @@ export class Tag {
     static readonly JEST = new Tag('../../assets/icons/tech/Jest.svg', 'Jest');
     static readonly POSTGRESQL = new Tag('../../assets/icons/tech/PostgreSQL-Dark.svg', 'PostgreSQL');
     static readonly SEQUELIZE = new Tag('../../assets/icons/tech/Sequelize-Dark.svg', 'Sequelize');
+    static readonly FIREBASE = new Tag('../../assets/icons/tech/Firebase-Dark.svg', 'Firebase');
+    static readonly REDUX = new Tag('../../assets/icons/tech/Redux.svg', 'Redux');
+    static readonly NEXTJS = new Tag('../../assets/icons/tech/NextJS-Dark.svg', 'NextJS')
 
     private constructor(private readonly img:string, public readonly alt: string){
 
