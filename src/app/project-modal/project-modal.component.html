@@ -14,7 +14,19 @@
 
     <h3 class="mt-2">Description</h3>
     <p [innerHTML]="project.description"></p>
-    <p>You can find this project on GitHub <a href={{project.projectLink}} target="_blank">here</a></p>
+
+    <div class="buttons">
+
+        <a href={{project.projectLinks[0]}}>
+            <button class="btn btn-primary">Github Repo</button>
+        </a>
+    
+        <div *ngIf="project.projectLinks[1]" class="deploybutton">
+            <a href={{project.projectLinks[1]}}>
+                <button class="btn btn-primary">Deploy</button>
+            </a>
+        </div>   
+    </div>
     
     <hr>
 
