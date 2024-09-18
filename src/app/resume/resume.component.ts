@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Renderer2 } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { AccordionModule } from 'ngx-bootstrap/accordion'
+import { Tag } from '../_models/Tag';
 
 @Component({
   selector: 'app-resume',                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
@@ -16,6 +17,8 @@ export class ResumeComponent {
   isEducationOpen: boolean = false;
   isCertificationsOpen: boolean = false;
   isSkillsOpen: boolean = false;
+  mainStack: Tag[] = Tag.getMainStack();
+  otherSkills: Tag[] = Tag.getOtherSkills();
 
   constructor(private titleService: Title, private renderer: Renderer2){
     this.titleService.setTitle('Juan Manuel Paola - Resume')

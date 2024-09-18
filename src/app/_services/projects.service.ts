@@ -36,7 +36,7 @@ export class ProjectsService {
       🌟 <strong>Notable Achievements:</strong><br>
       This project not only demonstrates my proficiency in web development but also my ability to independently tackle challenges and meet tight deadlines.`,
 
-      projectLinks: ['https://github.com/JuanMPaola/Proyecto-Individual-Videogames', 'https://github.com/JuanMPaola/Proyecto-Individual-Videogames'],
+      projectLinks: ['https://github.com/JuanMPaola/Proyecto-Individual-Videogames'],
       tags: [ Tag.JAVASCRIPT, Tag.REACT, Tag.REDUX, Tag.EXPRESS, Tag.POSTGRESQL ],
       pictures: [ "../../assets/Videogames/Home.jpeg", "../../assets/Videogames/Form.jpeg" ]
     },

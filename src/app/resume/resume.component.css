@@ -14,3 +14,17 @@ accordion-group::ng-deep .card-header{
 h6 {
     color: rgb(68, 68, 68);
 }
+
+.tech_icons {
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    margin: 5px 0;
+    gap: 10px;
+
+}
+
+.tech_icons img {
+    max-width: 50px;
+}

@@ -117,8 +117,35 @@
                         <div *ngIf="!isSkillsOpen" style="color: white">➡️</div>
                         <div *ngIf="isSkillsOpen" style="color: white">⬇️</div>
                     </div>
-
                 </button>
+
+                <div style="text-align: left;">
+                    <h2 class="mb-0"> Main Stack:</h2>
+                    <br>
+                    <div class="tech_icons">
+                        <div *ngFor="let tech of mainStack">
+
+                            <div>
+                                <img [src]="tech.toString()" [alt]="tech.alt" title="{{tech.alt}}">
+                            </div>
+            
+                        </div>
+    
+                    </div>
+
+                    <hr>
+                    
+                    <h2 class="mb-0"> I also have knowloge in:</h2>
+
+                    <br>
+                    <div class="tech_icons">
+                        <div *ngFor="let tech of otherSkills">
+                            <div>
+                                <img [src]="tech.toString()" [alt]="tech.alt" title="{{tech.alt}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </accordion-group>
 

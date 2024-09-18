@@ -10,10 +10,10 @@
     <div class="card-footer">
 
         <div class="tech_icons">
-            <div *ngFor="let tag of project.tags">
+            <div *ngFor="let tech of project.tags">
 
                 <div>
-                    <img src={{tag.toString()}} alt={{tag.alt}}>
+                    <img [src]="tech.toString()" [alt]="tech.alt" title="{{tech.alt}}" >
                 </div>
 
             </div>

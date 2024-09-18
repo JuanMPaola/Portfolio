@@ -22,4 +22,11 @@ export class Tag {
     toString(){
         return this.img;
     }
+
+    static getMainStack(){
+        return [Tag.NODEJS, Tag.TYPESCRIPT ,Tag.NESTJS, Tag.POSTGRESQL , Tag.REACT, Tag.DOCKER]
+    }
+    static getOtherSkills(){
+        return [Tag.JAVASCRIPT, Tag.CSHARP, Tag.EXPRESS, Tag.NEXTJS, Tag. ANGULAR, Tag.FIREBASE, Tag.REDUX, Tag.SEQUELIZE, Tag.JEST ] 
+    }
 }

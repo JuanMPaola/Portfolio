@@ -45,3 +45,20 @@ a:hover {
 .m-3 {
     margin: 20px;
 } */
+
+.greeting {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 10px;
+}
+
+.greeting strong {
+    font-size: 1.5em;
+    color: #333;
+}
+.left-align {
+    text-align: left; /* Ensures the text is left-aligned */
+    margin-left: 0; /* Removes any default margin */
+}
+
