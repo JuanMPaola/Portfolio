@@ -118,7 +118,7 @@ export class ProjectsService {
 
       The portfolio emphasizes a modern, professional design and utilizes cutting-edge web technologies to provide a dynamic and user-friendly experience.`,
       projectLinks: ['https://github.com/JuanMPaola/Portfolio'],
-      tags: [ Tag.TYPESCRIPT, Tag.ANGULAR ],
+      tags: [ Tag.TYPESCRIPT, Tag.ANGULAR, Tag.BOOTSTRAP ],
       pictures: []
     },
     {
@@ -151,8 +151,38 @@ export class ProjectsService {
       projectLinks: ['https://github.com/JuanMPaola/Hospital-Appointment-Scheduler-API'],
       tags: [ Tag.TYPESCRIPT,Tag.NESTJS ,Tag.DOCKER , Tag.POSTGRESQL, Tag.JEST ],
       pictures: []
+    },
+    {
+      id: 5,
+      name: "Node.js-Based Game \"Alias\"",
+      summary: "Alias is a multiplayer word-guessing game built with Node.js, featuring user authentication, real-time gameplay, chat, game lobby functionality, and custom algorithms for validating words and similar terms.",
+      description: `🎮 <strong>Alias Game Project</strong><br>
+    
+      Developed as a final project for the LABA Solvd backend bootcamp, this Node.js-based word-guessing game brings friends together for a fast-paced multiplayer experience.<br><br>
+    
+      🛠️ <strong>Technologies Used:</strong><br>
+      <ul>
+        <li>Node.js</li>
+        <li>Nest.js</li>
+        <li>MongoDB</li>
+        <li>Handlebars</li>
+        <li>Bootstrap</li>
+        <li>Socket.io</li>
+        <li>Docker</li>
+      </ul>
+    
+      🚀 <strong>Key Features:</strong><br>
+      • Real-time game lobby and room management.<br>
+      • User authentication with Google OAuth and JWT.<br>
+      • Profile stats tracking (games played, words guessed, etc.).<br>
+      • Chat for players within game rooms.<br>
+      • Word validation and similarity checks.<br><br>
+    
+      This project showcases real-time functionalities in Node.js and demonstrates a robust system for multiplayer game management.`,
+      projectLinks: ["https://github.com/Pawbag123/Alias-Game"],
+      tags: [Tag.TYPESCRIPT, Tag.NESTJS, Tag.MONGODB,  Tag.HANDLEBARS, Tag.DOCKER],
+      pictures: ["../../assets/Alias/Login.png", "../../assets/Alias/Lobby.png", "../../assets/Alias/In-game.png", "../../assets/Alias/End-game.png"]
     }
-
   ]
 
   constructor() { }
